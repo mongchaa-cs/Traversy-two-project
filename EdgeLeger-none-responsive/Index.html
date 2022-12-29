@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdgeLedger Website</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!--Nav: Navbar -->
+    <header>
+        <nav id="navbar">
+            <h1 class="logo">
+                <span class="text-primary">Edge</span>Ledger
+            </h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main: All section part start -->
+    <main>
+        <!--Header: Showcase -->
+        <section id="showcase">
+            <div class="showcase-content">
+                <h1 class="l-heading">
+                    Hello Carpe diem!
+                </h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis placeat quae eligendi voluptatem ullam minus sequi corrupti reprehenderit esse nesciunt.</p>
+                <a href="#service" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!-- Section: Service -->
+        <section id="service" class="bg-light py-1">
+            <div class="container">
+                <h2 class="m-heading text-center"><span class="text-primary">Our</span> Service</h2>
+                <div class="items">
+                    <div class="item">
+                        <i class="fas fa-university fa-2x"></i>
+                        <div class="item-content">
+                            <h3>Investment Banking</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, excepturi.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-book-reader fa-2x"></i>
+                        <div class="item-content">
+                            <h3>Portfolio Management</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, excepturi.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-pencil-alt fa-2x"></i>
+                        <div class="item-content">
+                            <h3>Tex & Custodial</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, excepturi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: About-->
+        <section id="about">
+            <div class="about-img"></div>
+            <div class="about-content bg-dark p-1">
+                <h2 class="m-heading"><span class="text-primary">Our</span> Members</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nihil temporibus nesciunt rem vel, voluptatum iusto labore aspernatur iure rerum.</p>
+                <h2>Our Team</h2>
+                <ul class="list">
+                    <li>Mark Smith: CEO</li>
+                    <li>Shannon Johnson: CFO</li>
+                    <li>John Corbit: Lead Accountant</li>
+                    <li>Janet Williams: Investment Manager</li>
+                    <li>Kara Jackson: Senior Accountant</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section: Clients -->
+        <section id="clients" class="py-1"> 
+            <div class="container">
+                <h2 class="m-heading text-center"><span class="text-primary">Our</span> Clients</h2>
+                <div class="items py-1">
+                    <div><img src="./img/logos/logo1.png" alt="Client"></div>
+                    <div><img src="./img/logos/logo2.png" alt="Client"></div>
+                    <div><img src="./img/logos/logo3.png" alt="Client"></div>
+                    <div><img src="./img/logos/logo4.png" alt="Client"></div>
+                    <div><img src="./img/logos/logo5.png" alt="Client"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Contact -->
+        <section id="contact">
+            <div class="contact-form bg-primary p-2">
+                <h2 class="m-heading">Contact Us</h2>
+                <p>Pleace use the form below to contact us</p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter Name"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Phone Number</label>
+                        <input type="text" name="phone" id="phone" placeholder="Enter Phone Number"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+
+                    <!-- button -->
+                    <input type="submit" value="Send" class="btn btn-dark">
+                </form>
+            </div>
+            
+            <!-- Map -->
+            <div id="map" class="text-center">It's Map Here!</div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark py-1 text-center">
+        <div class="main-footer">
+            <p>Copyright &copy; 2019, EdgeLedger, All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
